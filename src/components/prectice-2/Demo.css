@@ -1,0 +1,16 @@
+.demo-prectice{
+   width: 600px;
+   /* height: 200px; */
+   padding: 20px;
+   margin: 10px auto;
+   /* background-color: antiquewhite; */
+}
+.demo-prectice h1{
+    margin: 20px 0;
+}
+.demo-details{
+    margin-top: 20px;
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 20px;
+}
