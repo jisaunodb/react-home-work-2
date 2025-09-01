@@ -16,12 +16,37 @@ function App() {
     setjisaun(jisauns - 1)
   }
 
+const clickplease = () =>{
+  setjisaun(jisauns + 1)
+}
+
+
+
+  const clickre =() =>{
+    setjisaun(10)
+
+  }
+  const clickreee =() =>{
+    setjisaun(10)
+
+  }
+
+
 if (jisauns == 0) {
     return <div className='jisaundfd'>
       <h1>please go back your code!</h1>
+      <button className='rbtn' onClick={clickre}>go back</button>
     </div>;
   }
+if (jisauns == 20){
+  return (
+  <>
+  <h1> hello jisaun please go back your code!</h1>
+  <button className='rbtn' onClick={clickreee}>go back</button>
 
+  </>
+  )
+}
 
 
 
@@ -45,6 +70,7 @@ const res =maninfo
 <div className='button-h'>
 
   <button className='rbtn' onClick={clickprectice}>click me</button>
+  <button className='rbtn' onClick={clickplease}>click me</button>
 </div>
 
 
